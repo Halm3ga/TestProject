@@ -1,0 +1,27 @@
+.hed{
+    text-align: center;
+    padding: 25px;
+}
+.main{
+    display: flexbox;
+    justify-content: center;
+}
+
+.basic{
+    display: flexbox;
+    justify-items: left;
+    width: 200px;
+    height: 250px;
+    box-shadow: 0px 20px 20px lightcyan;
+}
+
+
+.price{
+    color: aqua;
+    font-size: xx-large;
+}
+.butt{
+    border-radius: 15px;
+    background-color: bisque;
+    box-shadow: 15px;
+}

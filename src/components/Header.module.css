@@ -1,0 +1,14 @@
+.hed{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background: rgb(3, 170, 254);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 15px;
+}
+.nav{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
