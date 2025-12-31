@@ -7,7 +7,7 @@ function PricingPlans(){
                 <div className={Styles.hed}>
                     <h3>Pricing Plans</h3>
                 </div>
-                <div className={Styles.basic}>
+                <div className={Styles.plan}>
                     <h4>Basic</h4>
                     <h2 className={Styles.price}>$4.99</h2>
                     <ul>
@@ -17,7 +17,7 @@ function PricingPlans(){
                     </ul>
                     <button className={Styles.butt}>Choose Plan</button>
                 </div>
-                <div className={Styles.std}>
+                <div className={Styles.plan}>
                     <h4>Standard</h4>
                     <h2 className={Styles.price}>$9.99</h2>
                     <ul>
@@ -27,7 +27,7 @@ function PricingPlans(){
                     </ul>
                     <button className={Styles.butt}>Choose Plan</button>
                 </div>
-                <div className={Styles.prem}>
+                <div className={Styles.plan}>
                     <h4>Premium</h4>
                     <h2 className={Styles.price}>$14.99</h2>
                     <ul>

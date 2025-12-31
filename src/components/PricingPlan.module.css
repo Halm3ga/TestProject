@@ -3,19 +3,14 @@
     padding: 25px;
 }
 .main{
-    display: flexbox;
+    display: flex;
     justify-content: center;
-}
-
-.basic{
-    display: flexbox;
-    justify-items: left;
-    width: 200px;
-    height: 250px;
+    gap: 24px;
     box-shadow: 0px 20px 20px lightcyan;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
-
-
 .price{
     color: aqua;
     font-size: xx-large;
@@ -23,5 +18,23 @@
 .butt{
     border-radius: 15px;
     background-color: bisque;
-    box-shadow: 15px;
+    padding: 8px 14px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+}
+
+.plan{
+    background: #ffffff;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 12px;
+    padding: 18px;
+    width: 220px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.03);
+    text-align: center;
+}
+
+.plan ul{
+    text-align: left;
+    margin-left: 18px;
 }
